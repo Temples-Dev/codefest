@@ -134,19 +134,7 @@ const SignUpPage = () => {
             />
           </div>
 
-          <div className="flex items-center space-x-2 animate-fadeIn">
-            <input
-              type="checkbox"
-              id="terms"
-              className="w-4 h-4 border-2 rounded accent-[rgb(255,139,0)]"
-              style={{ borderColor: 'rgb(5, 5, 137, 0.3)' }}
-            />
-            <label className="text-sm" 
-                   style={{ color: 'rgb(5, 5, 137, 0.7)' }} 
-                   htmlFor="terms">
-              I agree to the Terms of Service and Privacy Policy
-            </label>
-          </div>
+          
 
           <Button 
             type="submit" 
