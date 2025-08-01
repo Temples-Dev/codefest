@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 const SignUpPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center animate-fadeIn" 
+    <div className="min-h-screen flex items-center justify-center animate-fadeIn py-4" 
          style={{ background: 'rgb(245, 210, 0)' }}>
       <div className="w-full max-w-md p-8 space-y-6 bg-[rgb(255,255,255)] rounded-lg shadow-2xl border-2 animate-slideDown"
            style={{ borderColor: 'rgb(255, 139, 0)' }}>
