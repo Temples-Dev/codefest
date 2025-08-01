@@ -132,3 +132,91 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+
+
+/* Brand Colors - Used sparingly for accents and key elements */
+.bg-orange-brand {
+  background-color: rgb(255, 139, 0);
+}
+
+.bg-blue-brand {
+  background-color: rgb(5, 5, 137);
+}
+
+.bg-yellow-brand {
+  background-color: rgb(245, 210, 0);
+}
+
+.text-orange-brand {
+  color: rgb(255, 139, 0);
+}
+
+.text-blue-brand {
+  color: rgb(5, 5, 137);
+}
+
+.text-yellow-brand {
+  color: rgb(245, 210, 0);
+}
+
+.border-orange-brand {
+  border-color: rgb(255, 139, 0);
+}
+
+.border-blue-brand {
+  border-color: rgb(5, 5, 137);
+}
+
+.border-yellow-brand {
+  border-color: rgb(245, 210, 0);
+}
+
+/* Typography following style guide */
+.font-arial {
+  font-family: "Arial", sans-serif;
+}
+
+.text-heading {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+/* Hover effects for brand colors */
+.hover\:bg-orange-brand:hover {
+  background-color: rgb(255, 139, 0);
+}
+
+.hover\:bg-blue-brand:hover {
+  background-color: rgb(5, 5, 137);
+}
+
+.hover\:bg-yellow-brand:hover {
+  background-color: rgb(245, 210, 0);
+}
+
+/* Focus states for better accessibility */
+.focus\:border-blue-brand:focus {
+  border-color: rgb(5, 5, 137);
+}
+
+.focus\:ring-blue-brand\/20:focus {
+  --tw-ring-color: rgba(5, 5, 137, 0.2);
+}
+
+/* Subtle shadows for modern look */
+.shadow-brand {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.shadow-brand-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
